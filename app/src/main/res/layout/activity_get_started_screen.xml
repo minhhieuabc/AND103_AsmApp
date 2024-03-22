@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Activity.GetStartedScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="Welcome to our store"
+            android:textStyle="bold"
+            android:textColor="@color/forest_green"
+            android:textSize="48sp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="358dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_button"
+        android:text="Get Started"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

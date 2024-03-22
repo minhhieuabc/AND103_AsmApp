@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="dark_charcoal">#1A2128</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_platinum">#F0EFEE</color>
+    <color name="light_silver">#DBDBDB</color>
+    <color name="white_smoke">#F5F5F5</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="dark_green">#23AA49</color>
+    <color name="forest_green">#115023</color>
+    <color name="scarlet">#FF4242</color>
+</resources>
